@@ -1,29 +1,29 @@
-module FancyDance 
-  module InstanceMethods 
+module FancyDance
+  module InstanceMethods
 
-    def twirl 
+    def twirl
       "I'm twirling!"
-    end 
+    end
 
-    def jump 
+    def jump
       "Look how high I'm jumping!"
-    end 
+    end
 
-    def pirouette 
+    def pirouette
       "I'mm doing a pirouette"
-    end 
+    end
 
     def take_a_bow
       "Thank youm thank you. It was a pleasure to dance for you all."
-    end 
-  end 
+    end
+  end
 
-  module ClassMethods 
+  module ClassMethods
 
-    def metadata 
+    def metadata
       "This class priduces objects that love to dance."
-    end 
+    end
 
-  end 
+  end
 
 end
